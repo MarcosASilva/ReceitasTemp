@@ -1,0 +1,70 @@
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 20%;
+
+}
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+#hd {
+    background-color: #adb3c75d;
+    text-align: center;
+    align-content: center;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    border-radius: 15px;
+    height: 75px;
+    margin-left:2px;
+    margin-right:2px;  
+    padding-top: 0px;
+}
+#title {
+	position: absolute;
+	top: 0%;
+	margin-left: 41%;
+}
+body {
+    background: rgb(51, 51, 61)
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+}
+textarea {
+    height: 200px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+}
+label {
+    color: #ccc;
+}

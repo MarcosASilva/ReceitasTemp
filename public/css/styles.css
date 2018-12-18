@@ -1,0 +1,33 @@
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 20%;
+
+}
+
+body {
+    background: rgb(51, 51, 61)
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+}
+textarea {
+    height: 200px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+}
+label {
+    color: #ccc;
+}
