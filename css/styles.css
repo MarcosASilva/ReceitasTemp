@@ -50,3 +50,6 @@ label {
 td,thead {
     color: white;
 }
+a {
+    color: #ccc;
+}
